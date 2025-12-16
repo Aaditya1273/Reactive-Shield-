@@ -61,11 +61,11 @@
 
 ### 🎥 Video Requirements
 
-- [ ] **Length**: 3-5 minutes maximum
-- [ ] **Content**: Terminal demo showing working contracts
-- [ ] **Narration**: Clear explanation of problem and solution
-- [ ] **Quality**: Professional audio and video
-- [ ] **Upload**: Video uploaded and link ready for submission
+- [x] **Length**: 3-5 minutes maximum
+- [x] **Content**: Terminal demo showing working contracts
+- [x] **Narration**: Clear explanation of problem and solution
+- [x] **Quality**: Professional audio and video
+- [x] **Upload**: Video uploaded and link ready for submission
 
 ### 🚀 Final Submission Steps
 
