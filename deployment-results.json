@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-12-16T07:52:00.947Z",
+  "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+  "network": "localhost",
+  "chainId": "31337",
+  "contracts": {
+    "vault": {
+      "address": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+      "name": "Vault",
+      "description": "Origin chain collateral management"
+    },
+    "loanMarket": {
+      "address": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
+      "name": "LoanMarket",
+      "description": "Destination chain lending market"
+    },
+    "lendingManager": {
+      "address": "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
+      "name": "LendingManager",
+      "description": "Reactive network coordination"
+    }
+  },
+  "eventTopics": {
+    "deposit": "0x36af321ec8d3c75236829c5317affd40ddb308863a1236d2d277a4025cccee1e",
+    "priceUpdate": "0x92664190cca12aca9cd5309d87194bdda75bb51362d71c06e1a6f75c7c765711"
+  },
+  "configuration": {
+    "wethAddress": "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9",
+    "systemContract": "0x0000000000000000000000000000000000FFFFFF",
+    "minGasBuffer": "0.01 ETH",
+    "ltvRatio": "70%",
+    "liquidationThreshold": "$1800",
+    "emergencyThreshold": "$1700"
+  }
+}

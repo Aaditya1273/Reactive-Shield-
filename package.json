@@ -1,0 +1,36 @@
+{
+  "name": "reactive-shield",
+  "version": "1.0.0",
+  "description": "The Unliquidatable Loan Protocol - Cross-chain Lending Automation with Reactive Smart Contracts",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run 'Hardhat deploy.js' --network localhost",
+    "demo": "npx hardhat run scripts/demo.js --network localhost",
+    "verify": "npx hardhat run scripts/verify-deployment.js --network localhost",
+    "test-vulnerabilities": "npx hardhat run scripts/test-vulnerabilities.js --network localhost",
+    "setup": "npm install && cp .env.example .env",
+    "clean": "npx hardhat clean",
+    "node": "npx hardhat node",
+    "bounty-check": "npm run compile && npm run test && npm run test-vulnerabilities"
+  },
+  "keywords": [
+    "reactive",
+    "defi",
+    "cross-chain",
+    "lending",
+    "automation",
+    "bounty"
+  ],
+  "author": "Reactive Shield Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.28.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0",
+    "dotenv": "^17.2.3"
+  }
+}
